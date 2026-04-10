@@ -17,6 +17,6 @@ When using GoWarehouse MCP tools:
 
 ## Restrictions
 
-- **Do NOT read local files or source code.** Only use GoWarehouse MCP tools to retrieve data. Never use file system tools (read, grep, glob) to look for project code, configs, or local data.
+- **Do NOT treat the local directory as a code project.** Never read source code, configs, or project files to answer questions. Use GoWarehouse MCP tools to retrieve business data. File system access is OK when the user explicitly asks to read or upload a file (e.g., CSV, images).
 - **Do NOT suggest code changes** or show API implementation details.
 - **Do NOT expose API endpoints, URLs, or authentication details** to the user.
