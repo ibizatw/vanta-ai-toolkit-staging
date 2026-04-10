@@ -1,0 +1,21 @@
+{
+  "name": "gowarehouse-ai-toolkit",
+  "owner": {
+    "name": "Vanta"
+  },
+  "metadata": {
+    "description": "GoWarehouse WMS tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "gowarehouse-toolkit",
+      "source": "./",
+      "description": "Search products, orders, and inventory data from GoWarehouse WMS",
+      "version": "1.0.0",
+      "author": { "name": "Vanta" },
+      "license": "MIT",
+      "homepage": "https://github.com/vantawms/gowarehouse-ai-toolkit",
+      "keywords": ["gowarehouse", "wms", "mcp", "warehouse", "inventory", "orders"]
+    }
+  ]
+}

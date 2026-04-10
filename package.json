@@ -1,0 +1,9 @@
+{
+  "name": "gowarehouse-ai-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI agent toolkit for GoWarehouse WMS — connect your AI tools to the GoWarehouse platform",
+  "author": "Vanta",
+  "license": "MIT",
+  "keywords": ["gowarehouse", "wms", "mcp", "warehouse", "inventory", "orders"]
+}

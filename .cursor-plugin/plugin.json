@@ -1,0 +1,11 @@
+{
+  "name": "gowarehouse-toolkit",
+  "description": "GoWarehouse WMS tools for Cursor — search products, orders, and inventory data",
+  "version": "1.0.0",
+  "author": { "name": "Vanta" },
+  "logo": "./assets/gowarehouse-logo.svg",
+  "homepage": "https://www.gowarehouse.asia",
+  "repository": "https://github.com/vantawms/gowarehouse-ai-toolkit",
+  "license": "MIT",
+  "keywords": ["gowarehouse", "wms", "mcp", "warehouse", "inventory", "orders"]
+}

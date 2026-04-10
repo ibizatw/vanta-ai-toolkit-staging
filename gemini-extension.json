@@ -1,0 +1,9 @@
+{
+  "name": "gowarehouse-toolkit",
+  "version": "1.0.0",
+  "mcpServers": {
+    "gowarehouse": {
+      "httpUrl": "https://vanta-mcp-690535503466.asia-east1.run.app/mcp"
+    }
+  }
+}
