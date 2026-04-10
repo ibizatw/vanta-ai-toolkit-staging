@@ -2,7 +2,7 @@
   "name": "vanta-toolkit",
   "version": "1.0.0",
   "mcpServers": {
-    "vanta": {
+    "GoWarehouseVanta": {
       "httpUrl": "https://mcp-staging.gowarehouse.ai/mcp"
     }
   }
