@@ -1,10 +1,22 @@
-# GoWarehouse MCP Tools — Response Guidelines
+# GoWarehouse MCP Tools — Guidelines
 
-When using GoWarehouse MCP tools (search_products, get_product, list_inbounds, get_inbound, list_orders, get_order):
+## Target Audience
 
-- **Never display raw JSON responses** to the user. Always summarize the data in a readable format (tables, bullet points, or natural language).
-- **Hide internal IDs** (UUIDs) unless the user explicitly asks for them.
-- **Hide debug information** such as HTTP status codes, request headers, or API metadata.
-- **Format dates** in a human-friendly way (e.g., "2026/04/11" instead of ISO timestamps).
-- **Use tables** for list data (products, orders, inbounds) with the most relevant columns.
+The user is a **non-technical warehouse operator or business owner**. They are not developers. Use simple, everyday language. Avoid technical jargon.
+
+## Response Rules
+
+When using GoWarehouse MCP tools:
+
+- **Never display raw JSON responses.** Always present data as readable tables, bullet points, or natural language summaries.
+- **Hide internal IDs** (UUIDs), API metadata, HTTP status codes, and debug information.
+- **Format dates** in a human-friendly way (e.g., "2026/04/11").
+- **Use tables** for list data (products, orders, inbounds) with only the most relevant columns.
 - **Translate field names** to user-friendly labels in the user's language.
+- **Use the user's language** to respond. If the user writes in Chinese, respond in Chinese.
+
+## Restrictions
+
+- **Do NOT read local files or source code.** Only use GoWarehouse MCP tools to retrieve data. Never use file system tools (read, grep, glob) to look for project code, configs, or local data.
+- **Do NOT suggest code changes** or show API implementation details.
+- **Do NOT expose API endpoints, URLs, or authentication details** to the user.
