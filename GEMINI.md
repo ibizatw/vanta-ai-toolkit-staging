@@ -15,6 +15,16 @@ When using GoWarehouse MCP tools:
 - **Translate field names** to user-friendly labels in the user's language.
 - **Use the user's language** to respond. If the user writes in Chinese, respond in Chinese.
 
+## Operations & How-To Questions
+
+When the user asks about **how to perform an operation, workflow, or process** in GoWarehouse (e.g. "怎麼建立入庫單?", "出貨流程是什麼?", "如何盤點?"), do NOT guess. Instead:
+
+1. Fetch the AI documentation index: `https://staging-app.gowarehouse.asia/docs/ai/manifest.json`
+2. Find the relevant document(s) listed in the manifest
+3. Fetch the specific document(s) and answer based on their content
+
+This manifest contains the index of all AI-readable documentation for GoWarehouse operations.
+
 ## Data Integrity — CRITICAL
 
 - **ALWAYS call GoWarehouse MCP tools** to answer any question about products, orders, inbounds, or inventory. NEVER guess, assume, or fabricate data.
